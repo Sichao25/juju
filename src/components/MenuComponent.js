@@ -32,6 +32,29 @@ class Menu extends Component {
         }
     }
 
+    renderComment(dish){
+        if (dish){
+            const commentview = this.state.selectedDish.comments.map((content) => {
+                return (
+                    <div key={content.id}>
+                        <p>{content.comment}</p>
+                        <p>--<strong>Author:</strong>{content.author}&nbsp;&nbsp;<strong>Date:</strong>{content.date}</p>
+                    </div>
+                );
+            });
+            return (
+                <div>
+                    <h3>Comments</h3>
+                    {commentview}
+                </div>
+            );
+        }else{
+            return(
+                <div></div>
+            );
+        }
+    }
+
     render() {
         const menu = this.props.dishes.map((dish) => {
             return (
@@ -46,16 +69,21 @@ class Menu extends Component {
             );
         });
 
-        return (
-          <div className="container">
-            <div className="row">
-                {menu}
+        return (   
+            <div className="container">
+              <div className="row">
+                  {menu}
+              </div>
+              <div className="row">
+                  <div className="col-12 col-md-5">
+                      {this.renderDish(this.state.selectedDish)}
+                  </div>
+                  <div className="col-12 col-md-5">
+                      {this.renderComment(this.state.selectedDish)}
+                  </div>
+              </div>
             </div>
-            <div className="row">
-                {this.renderDish(this.state.selectedDish)}
-            </div>
-          </div>
-        );
+          );
     }
 }
 
