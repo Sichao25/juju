@@ -33,7 +33,7 @@ class Dishdetail extends Component {
                 return (
                     <div key={content.id}>
                         <p>{content.comment}</p>
-                        <p>--<strong>Author:</strong>{content.author}&nbsp;&nbsp;<strong>Date:</strong>{content.date}</p>
+                        <p>--<strong>Author:</strong>{content.author}&nbsp;&nbsp;<strong>Date:</strong>{new Intl.DateTimeFormat('en-US',{year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(content.date)))}</p>
                     </div>
                 );
             });
