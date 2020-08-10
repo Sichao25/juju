@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardImg, Breadcrumb, BreadcrumbItem, CardText, CardBody, CardTitle } from 'reactstrap';
 import{ Link } from 'react-router-dom';
+import CommentForm from "./CommentFormComponent"; 
 
 
 
@@ -37,11 +38,14 @@ import{ Link } from 'react-router-dom';
                 <div>
                     <h4>Comments</h4>
                     {commentview}
+                    <CommentForm></CommentForm>
                 </div>
             );
         }else{
             return(
-                <div></div>
+                <div>
+                    <CommentForm></CommentForm>
+                </div>
             );
         }
     }
