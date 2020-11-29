@@ -2,42 +2,42 @@ export const DISHES =
     [
         {
         id: 0,
-        name:'Uthappizza',
-        image: '/assets/images/uthappizza.png',
+        name:'Xinjiang Chicken',
+        image: '/assets/images/chicken.jpg',
         category: 'mains',
         label:'Hot',
         price:'4.99',
         featured: true,
-        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'                    
+        description:'A unique combination of various local vegetables and spices.Topped with onions, chillies and potatoes.'                    
         },
         {
         id: 1,
-        name:'Zucchipakoda',
-        image: '/assets/images/zucchipakoda.png',
+        name:'Mapo Tofu',
+        image: '/assets/images/tofu.jpg',
         category: 'appetizer',
         label:'',
         price:'1.99',
         featured: false,
-        description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'
+        description:'One of the most famous Chinese dishes in the world. Spicy tofu topped with beef and chilies.'
         },
         {
         id: 2,
-        name:'Vadonut',
-        image: '/assets/images/vadonut.png',
+        name:'Tomatoes fried beef',
+        image: '/assets/images/beef.jpg',
         category: 'appetizer',
         label:'New',
         price:'1.99',
         featured: false,
-        description:'A quintessential ConFusion experience, is it a vada or is it a donut?'
+        description:'The favourite dish of JuJu, the first product of our team.'
         },
         {
         id: 3,
-        name:'ElaiCheese Cake',
-        image: '/assets/images/elaicheesecake.png',
+        name:'Fried Eggplant and Potatoes',
+        image: '/assets/images/eggplant.jpg',
         category: 'dessert',
         label:'',
         price:'2.99',
         featured: false,
-        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
+        description:'Classic vegetable dishes. Made of eggplants, potatoes and chilies.'
         }
     ];

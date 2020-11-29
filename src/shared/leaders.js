@@ -2,37 +2,37 @@ export const LEADERS = [
     {
       id: 0,
       name: 'JuJu',
-      image: '/assets/images/alberto.png',
+      image: '/assets/images/cat.jpg',
       designation: 'Chief Epicurious Officer',
       abbr: 'CEO',
       featured: false,
-      description: "JuJu is the leader of our team."
+      description: "Our CEO, JuJu, the leader of our team, beloved by other team members."
     },
     {
       id: 1,
-      name: 'MerMer',
-      image: '/assets/images/alberto.png',
+      name: 'Mao',
+      image: '/assets/images/cat.jpg',
       designation: 'Chief Food Officer',
       abbr: 'CFO',
         featured: false,
-      description: 'Our CFO, MerMer is responsible for eating all the dishes! '
+      description: 'Meo!Meo! '
     },
     {
       id: 2,
-      name: 'Momo',
-      image: '/assets/images/alberto.png',
+      name: 'MerMer',
+      image: '/assets/images/cat.jpg',
       designation: 'Chief Taste Officer',
       abbr: 'CTO',
         featured: false,
-      description: 'Our CTO, Momo is the expert of cooking beef. She is also a huge lover of tomatoes and eggplant.'
+      description: 'Love beef and tomatoes!'
     },
     {
       id: 3,
-      name: 'Human',
-      image: '/assets/images/alberto.png',
+      name: 'LuLu',
+      image: '/assets/images/cat.jpg',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,
-      description: 'Human is a master of cooking!'
+      description: 'LuLu from LuLu Forest, the master of cooking!'
     }
   ];
