@@ -1,6 +1,5 @@
-This is my first React Application.
+This is my first React Application. Check the another version of this website in https://github.com/Sichao25/bootstrap_project.git.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Screenshot
 
 ![Image](1.jpg)
